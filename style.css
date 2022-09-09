@@ -94,9 +94,6 @@ header .title h1 {
 .presentation {
   background-color: #222f3e;
   color: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 30px;
 }
 
 .subtitle {
@@ -105,6 +102,17 @@ header .title h1 {
   font-style: italic;
 }
 
+.info {
+  padding-top: 30px;
+}
+
 .info p {
+  margin-top: 30px;
+  margin: 30px;
+}
+
+#carouselExampleControls {
+  width: 40%;
+  margin: auto;
   margin-top: 30px;
 }
