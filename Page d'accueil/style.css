@@ -25,12 +25,25 @@ p {
 }
 
 header {
-  height: 80vh;
+  height: 70vh;
   background: url(media/manette.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
 }
+
+@media screen and (max-width: 920px) and (min-width: 550px) {
+  header {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  header {
+    height: 80vh;
+  }
+}
+
 
 /********************* NAVIGATION ************************/
 
@@ -116,9 +129,18 @@ header .title h1 {
 }
 
 #carouselExampleControls {
-  width: 40%;
+  width: 60%;
   margin: auto;
   margin-top: 30px;
+  box-shadow: 7px 5px 15px 1px rgba(0, 0, 0, 0.84);
+}
+
+@media screen and (max-width: 1200px) {
+  #carouselExampleControls {
+    width: 90vw;
+    margin: auto;
+    margin-top: 30px;
+  }
 }
 
 /************************** INFOS PRATIQUES *******************/
@@ -137,12 +159,13 @@ header .title h1 {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-@media screen and (max-width : 980px) {
+@media screen and (max-width : 800px) {
   .pratical-infos img {
-    width: 40%;
-    height: 40%;
+    display: none;
   }
 }
+
+/************************** FOOTER ***********************/
 
 .contact {
   background-color: #222f3e;
