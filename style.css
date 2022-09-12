@@ -132,7 +132,7 @@ header .title h1 {
   width: 60%;
   margin: auto;
   margin-top: 30px;
-  box-shadow: 7px 5px 15px 1px rgba(0, 0, 0, 0.84);
+  box-shadow: 7px 5px 15px 1px rgba(250, 247, 247, 0.596);
 }
 
 @media screen and (max-width: 1200px) {
@@ -153,7 +153,7 @@ header .title h1 {
 
 .pratical-infos img {
   float: right;
-  height: 400px;
+  height: 350px;
   margin-right: 30px;
   border-radius: 5%;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -168,6 +168,25 @@ header .title h1 {
 /************************** FOOTER ***********************/
 
 .contact {
-  background-color: #222f3e;
+  background-color: #53759c;
   padding-top: 30px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+
+.icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 3em;
+  color: #FFFAE1;
+}
+
+.icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
 }
