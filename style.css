@@ -67,6 +67,8 @@ header nav a:hover {
 
 header .title {
   margin-top: 40px;
+  font-style: italic;
+  text-shadow: -6px 2px 7px rgb(97, 93, 92);
 }
 
 header .title h4 {
@@ -132,7 +134,7 @@ header .title h1 {
   width: 60%;
   margin: auto;
   margin-top: 30px;
-  box-shadow: 7px 5px 15px 1px rgba(250, 247, 247, 0.596);
+  box-shadow: 4px 5px 29px 3px #666666;
 }
 
 @media screen and (max-width: 1200px) {
