@@ -172,7 +172,6 @@ header .title h1 {
 .contact {
   background-color: #53759c;
   padding-top: 30px;
-  height: 120vh;
 }
 
 .icons {
@@ -211,7 +210,14 @@ header .title h1 {
   height: 60vh;
   border-radius: 3%;
   box-shadow: 4px 5px 29px 3px #000000;
+}
 
+.button a {
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px;
 }
 
 .lign {
@@ -225,12 +231,6 @@ header .title h1 {
   .team img {
     width: 60%;
     height: auto;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .contact {
-    height: 110vh;
   }
 }
 
