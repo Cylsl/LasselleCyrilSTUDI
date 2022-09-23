@@ -26,11 +26,26 @@ h2 {
   font-style: italic;
 }
 
+h1 {
+  text-align: center;
+  font-style: italic;
+}
+
 h4 {
   text-align: center;
   font-style: italic;
   font-weight: bold !important;
   padding-top: 100px;
+}
+
+@media screen and (max-width : 660px) {
+  header {
+    background: url(media/manettehandicap2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50vh;
+  }
 }
 
 /******************************* NAVIGATION ***********************/
@@ -113,38 +128,6 @@ header nav a:hover {
   }
 }
 
-/****************************** TITRE ****************************/
-
-header .title h1 {
-  font-size: 5rem;
-  font-style: italic;
-  font-weight: 400;
-  padding-top: 80px;
-  color: rgb(191, 194, 185);
-  text-shadow: -6px 2px 7px rgba(31, 28, 27, 0.82);
-}
-
-@media screen and (max-width: 500px) {
-  h1 {
-    font-size: 4em !important;
-  }
-
-}
-
-@media screen and (max-width: 400px) {
-  h1 {
-    font-size: 3em !important;
-  }
-
-}
-
-@media screen and (max-width: 300px) {
-  h1 {
-    font-size: 2em !important;
-  }
-
-}
-
 /************************ PRESENTATION ***********************/
 
 .presentation {
@@ -169,13 +152,6 @@ header .title h1 {
   padding-top: 60px;
 }
 
-/*.explication img {
-  margin-top: 100px;
-  margin: 50px 50px 50px 80px;
-  width: 40%;
-  border-radius: 4%;
-  box-shadow: 1px 4px 20px 4px #020202;
-}*/
 
 .manette-adaptative {
   display: flex;
@@ -230,6 +206,17 @@ header .title h1 {
 @media screen and (max-width: 800px) {
   .video {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .manette-adaptative img {
+    width: 95%;
+  }
+
+  .manette-adaptative {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
